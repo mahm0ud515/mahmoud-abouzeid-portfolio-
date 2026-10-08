@@ -80,27 +80,27 @@ export const projectsData: Project[] = [
     ],
     images: [
       {
-        url: '/projects/dualrisk/Figure_1_Workflow.png',
+        url: `${import.meta.env.BASE_URL}projects/dualrisk/Figure_1_Workflow.png`,
         caption: 'Figure 1: DualRisk-AI End-to-End 5-Phase Research and Modeling Workflow',
         alt: 'DualRisk-AI Workflow'
       },
       {
-        url: '/projects/dualrisk/Figure_2_Internal_External_AUC.png',
+        url: `${import.meta.env.BASE_URL}projects/dualrisk/Figure_2_Internal_External_AUC.png`,
         caption: 'Figure 2: Internal vs. External ROC-AUC and F1 Performance Comparison across Models',
         alt: 'Internal vs External ROC-AUC'
       },
       {
-        url: '/projects/dualrisk/Figure_3_SHAP_Diabetes.png',
+        url: `${import.meta.env.BASE_URL}projects/dualrisk/Figure_3_SHAP_Diabetes.png`,
         caption: 'Figure 3: SHAP Summary Plot identifying key clinical predictors for Diabetes Prediction',
         alt: 'SHAP Diabetes Summary Plot'
       },
       {
-        url: '/projects/dualrisk/Figure_4_SHAP_HeartRisk.png',
+        url: `${import.meta.env.BASE_URL}projects/dualrisk/Figure_4_SHAP_HeartRisk.png`,
         caption: 'Figure 4: SHAP Summary Plot for Cardiovascular Risk Factor Burden Estimation',
         alt: 'SHAP HeartRisk Summary Plot'
       },
       {
-        url: '/projects/dualrisk/image2.png',
+        url: `${import.meta.env.BASE_URL}projects/dualrisk/image2.png`,
         caption: 'PyTorch Hybrid CNN + Attention Neural Network Architecture (8,514 parameters)',
         alt: 'Hybrid CNN Attention Architecture'
       }

@@ -14,7 +14,7 @@ export const profileData: Profile = {
   phone: '+20 109 898 1387',
   linkedin: 'https://linkedin.com/in/mahmoud-abouzeid-54a1aa24b',
   github: 'https://github.com/mahm0ud515',
-  resumePdfUrl: '/mahmoud-abouzeid-resume.pdf',
+  resumePdfUrl: `${import.meta.env.BASE_URL}mahmoud-abouzeid-resume.pdf`,
   summary:
     'AI & Data Science engineer with hands-on experience building and deploying end-to-end systems across Healthcare AI, Computer Vision, NLP, Retrieval-Augmented Generation (RAG), Mixed Reality, and mobile applications. Developed an explainable clinical risk-prediction pipeline with SHAP interpretability and temporal external validation on NHANES data. Led a 5-member team to deliver an agentic RAG-based AR education platform showcased at AASTMT, which won project funding of 52,250 EGP. Proficient in Python, PyTorch, TensorFlow, scikit-learn, LangChain, FastAPI, Flutter, and Firebase across research, web, and mobile environments.',
   shortBio:
